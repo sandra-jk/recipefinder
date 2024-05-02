@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Finder</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+</head>
+<body>
+  <div class="navbar">
+    <ul>
+      <li>About</li>
+      <li>Blog</li>
+      <li>FAQ</li>
+      <li> </li>
+      <li> </li>
+      <li>
+    <input id="input-ingredient" type="text"  placeholder="Enter ingredients (comma-separated)">
+    <button id="search-button">Search</button></li>
+    </ul>
+
+  </div>
+  <section class="hero">
+      
+      <div class="card">
+        <div class="card-header">
+          <h2 id="recipe-name">Recipe title</h2>
+        </div>
+        
+        <div class="card-body">
+          <img  id="recipe-image"  src="" alt="Image">
+        </div>
+      
+      <div class="row">
+        <div id="instructions" class="col-md-6">
+          <div class="info-box">
+            <h3>Instructions</h3>
+            <p id="instructions-list"></p>
+          </div>
+        </div>
+        <div id="ingredients" class="col-md-6">
+          <div class="info-box">
+            <h3>Ingredients</h3>
+            <p id="ingredients-list"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   
+     
+  <script src="js/script.js"></script>  </body>
+</html>

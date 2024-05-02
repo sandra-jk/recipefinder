@@ -1,0 +1,243 @@
+{
+    "recipes": [
+      {
+        "id": 1,
+        "name": "Spaghetti Aglio e Olio",
+        "ingredients": [
+          "spaghetti",
+          "garlic cloves",
+          "olive oil",
+          "red pepper flakes (optional)",
+          "fresh parsley",
+          "salt",
+          "pepper"
+        ],
+        "instructions": [
+          "Cook spaghetti according to package directions.",
+          "Meanwhile, heat olive oil in a pan over medium heat. Add garlic and cook until fragrant, about 30 seconds.",
+          "Add red pepper flakes (if using) and cook for another 10 seconds.",
+          "Drain pasta, reserving some pasta water. Add pasta to the pan with garlic and oil. Toss to coat.",
+          "Add a splash of pasta water at a time, tossing constantly, until a creamy sauce forms. Season with salt and pepper to taste.",
+          "Garnish with fresh parsley and serve immediately."
+        ],
+        "image": "img/spaghetti-aglio.jpeg" 
+      },
+      {
+        "id": 2,
+        "name": "Chicken Stir Fry",
+        "ingredients": [
+          "chicken breast, boneless and skinless",
+          "broccoli florets",
+          "red bell pepper",
+          "soy sauce",
+          "honey",
+          "cornstarch",
+          "vegetable oil",
+          "rice",
+          "cooked"
+        ],
+        "instructions": [
+          "Cut chicken breast into thin strips. In a bowl, combine soy sauce, honey, and cornstarch. Add chicken and marinate for 15 minutes.",
+          "Heat vegetable oil in a wok or large pan over high heat. Add chicken and cook until golden brown and cooked through.",
+          "Add broccoli and red bell pepper to the pan and stir-fry for 3-4 minutes, or until tender-crisp.",
+          "Serve chicken and vegetables over cooked rice."
+        ],
+        "image": "img/chicken-stir-fry.jpeg" 
+      },
+      {
+        "id": 3,
+        "name": "Tomato Soup with Grilled Cheese",
+        "ingredients": [
+          "canned diced tomatoes",
+          "vegetable broth",
+          "onion",
+          "garlic clove",
+          "olive oil",
+          "dried oregano",
+          "salt",
+          "pepper",
+          "bread",
+          "cheese slices"
+        ],
+        "instructions": [
+          "In a large pot, heat olive oil over medium heat. Add onion and garlic, and cook until softened, about 5 minutes.",
+          "Add diced tomatoes, vegetable broth, and oregano. Bring to a boil, then reduce heat and simmer for 20 minutes.",
+          "Puree soup with an immersion blender or in batches in a regular blender. Season with salt and pepper to taste.",
+          "For grilled cheese, prepare sandwiches with bread and cheese slices. Butter outside of bread slices. Cook in a pan over medium heat until golden brown and cheese is melted."
+        ],
+        "image": "img/Tomato-soup-with-grilled-cheese-4.jpg"  
+      },
+      {
+        "id": 4,
+        "name": "Tuna Salad Sandwich",
+        "ingredients": [
+          "canned tuna",
+          "mayonnaise",
+          "celery",
+          "red onion",
+          "dill pickle relish (optional)",
+          "bread",
+          "lettuce",
+          "tomato"
+        ],
+        "instructions": [
+          "In a bowl, mix canned tuna with mayonnaise, chopped celery, red onion, and dill pickle relish (if using).",
+          "Spread tuna salad on slices of bread. Add lettuce and tomato slices (optional).",
+          "Enjoy your tuna salad sandwich!"
+        ],
+        "image": "path/to/tuna-salad-sandwich.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Mac and Cheese",
+        "ingredients": [
+          "elbow macaroni",
+          "milk",
+          "butter",
+          "cheddar cheese, shredded",
+          "flour",
+          "salt",
+          "pepper"
+        ],
+        "instructions": [
+          "Cook macaroni according to package directions. Drain and set aside.",
+          "In a saucepan, melt butter over medium heat. Whisk in flour until smooth. Cook for 1 minute.",
+          "Slowly whisk in milk, bringing to a simmer. Cook until thickened, about 5 minutes.",
+          "Remove from heat and stir in cheddar cheese until melted. Season with salt and pepper to taste.",
+          "Combine cooked macaroni with cheese sauce and toss to coat. Serve immediately."
+        ],
+        "image": "path/to/mac-and-cheese.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Chicken Fajitas",
+        "ingredients": [
+          "chicken breasts, boneless and skinless",
+          "bell peppers (various colors)",
+          "onion",
+          "olive oil",
+          "fajita seasoning",
+          "tortillas",
+          "shredded cheese (optional)",
+          "guacamole (optional)",
+          "sour cream (optional)"
+        ],
+        "instructions": [
+          "Slice chicken breasts into thin strips. Slice bell peppers and onion.",
+          "Heat olive oil in a large skillet over medium-high heat. Add chicken and cook until golden brown and cooked through.",
+          "Add bell peppers and onion to the pan and cook until softened, about 5 minutes.",
+          "Season with fajita seasoning to taste.",
+          "Warm tortillas according to package directions.",
+          "Serve chicken fajita mixture with tortillas, shredded cheese, guacamole, and sour cream (optional)."
+        ],
+        "image": "img/Chicken Fajitas2.jpeg"
+      }, {
+        "id": 7,
+        "name": "Cheesy Chicken Enchiladas",
+        "ingredients": [
+          "shredded chicken",
+          "corn tortillas",
+          "enchilada sauce",
+          "cheddar cheese, shredded",
+          "Monterey Jack cheese, shredded",
+          "diced tomatoes",
+          "green chiles (optional), chopped",
+          "onion (optional), chopped",
+          "olive oil"
+        ],
+        "instructions": [
+          "Preheat oven to 375°F (190°C). Lightly grease a 9x13 inch baking dish.",
+          "Warm corn tortillas according to package directions to make them pliable.",
+          "Spread a thin layer of enchilada sauce on the bottom of the baking dish.",
+          "In a bowl, combine shredded chicken, diced tomatoes, green chiles (if using), and half of the cheddar cheese and Monterey Jack cheese. Season with salt and pepper to taste.",
+          "Fill each tortilla with the chicken mixture and roll up. Place seam side down in the prepared baking dish.",
+          "Pour remaining enchilada sauce over the top of the rolled tortillas. Sprinkle with remaining cheddar cheese and Monterey Jack cheese.",
+          "Bake for 20-25 minutes, or until cheese is melted and bubbly."
+        ],
+        "image": "path/to/cheesy-chicken-enchiladas.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Greek Yogurt Parfait",
+        
+        "ingredients": [
+          "Greek yogurt",
+          "granola",
+          "fresh fruit (berries, banana, mango)",
+          "honey (optional)",
+          "chopped nuts (optional)"
+        ],
+        "instructions": [
+          "Layer Greek yogurt, granola, and fresh fruit in a parfait glass or bowl. Repeat layers as desired.",
+          "Drizzle with honey (optional) and sprinkle with chopped nuts (optional) for extra flavor and crunch."
+        ],
+        "image": "path/to/greek-yogurt-parfait.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Beef and Broccoli Stir-fry",
+        "ingredients": [
+          "flank steak, thinly sliced",
+          "broccoli florets",
+          "soy sauce",
+          "brown sugar",
+          "cornstarch",
+          "water",
+          "garlic cloves, minced",
+          "ginger, minced",
+          "vegetable oil",
+          "white rice (cooked)"
+        ],
+        "instructions": [
+          "Marinate sliced flank steak in soy sauce, brown sugar, and cornstarch for at least 30 minutes (or longer for more flavorful meat).",
+          "Heat vegetable oil in a wok or large pan over high heat. Stir-fry broccoli florets for 2-3 minutes, until tender-crisp. Remove from the pan and set aside.",
+          "Add more oil to the pan if needed. Increase heat to high and stir-fry the marinated beef in batches until cooked through.",
+          "In a small bowl, whisk together soy sauce, water, and cornstarch to create a slurry. Add the sauce to the pan with the cooked beef and bring to a simmer. Cook until the sauce thickens slightly.",
+          "Return the broccoli florets to the pan and toss to combine with the sauce and beef.",
+          "Serve beef and broccoli stir-fry over cooked white rice."
+        ],
+        "image": "path/to/beef-and-broccoli-stir-fry.jpg"
+      },    {
+        "id": 10,
+        "name": "Veggie Burgers",
+        "ingredients": [
+          "black beans, canned and drained",
+          "brown rice, cooked",
+          "bread crumbs",
+          "onion, chopped",
+          "egg",
+          "cumin",
+          "chili powder",
+          "burger buns"
+        ],
+        "instructions": [
+          "Mash black beans in a bowl. Add cooked brown rice, bread crumbs, chopped onion, egg, cumin, and chili powder. Mix well to combine.",
+          "Form the mixture into patties. Heat a pan with oil over medium heat.",
+          "Cook veggie burgers for a few minutes per side, until golden brown and cooked through.",
+          "Serve on burger buns with your favorite toppings."
+        ],
+        "image": "path/to/veggie-burgers.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Pancakes",
+        "ingredients": [
+          "all-purpose flour",
+          "sugar",
+          "baking powder",
+          "salt",
+          "milk",
+          "egg",
+          "butter, melted"
+        ],
+        "instructions": [
+          "In a bowl, whisk together flour, sugar, baking powder, and salt.",
+          "In another bowl, whisk together milk, egg, and melted butter. Add wet ingredients to dry ingredients and mix until just combined.",
+          "Heat a lightly greased griddle or pan over medium heat. Pour batter onto the griddle to form pancakes.",
+          "Cook for a few minutes per side, until bubbles appear on the surface and the edges start to set. Flip and cook for another minute or two, until golden brown."
+        ],
+        "image": "img/pancake.jpeg"
+      }  
+    ]
+  }
+  
