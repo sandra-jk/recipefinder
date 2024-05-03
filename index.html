@@ -13,14 +13,17 @@
 <body>
   <div class="navbar">
     <ul>
-      <li>About</li>
-      <li>Blog</li>
-      <li>FAQ</li>
+      <a href="#about"><li>About</li></a>
+      <a href="#blog"><li>Blog</li></a>
+      <a href=""><li>FAQ</li></a>
       <li> </li>
       <li> </li>
       <li>
-    <input id="input-ingredient" type="text"  placeholder="Enter ingredients (comma-separated)">
-    <button id="search-button">Search</button></li>
+        <div style="display: flex; justify-content: flex-end;">
+          <input id="input-ingredient" type="text" placeholder="Enter ingredients (comma-separated)">
+          <button id="search-button">Search</button>
+        </div>
+      </li>
     </ul>
 
   </div>
@@ -32,26 +35,83 @@
         </div>
         
         <div class="card-body">
-          <img  id="recipe-image"  src="" alt="Image">
+          <img  id="recipe-image"  src="img/jo-sonn-M-tzZD5z720-unsplash.jpg" alt="Image">
         </div>
       
       <div class="row">
         <div id="instructions" class="col-md-6">
           <div class="info-box">
             <h3>Instructions</h3>
-            <p id="instructions-list"></p>
+            <p id="instructions-list">Loading Instructions....</p>
           </div>
         </div>
         <div id="ingredients" class="col-md-6">
           <div class="info-box">
             <h3>Ingredients</h3>
-            <p id="ingredients-list"></p>
+            <p id="ingredients-list">Loading Ingredients...</p>
           </div>
         </div>
       </div>
     </div>
   </section>
+  <section id="about" class="p-5">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            
+                <h2 class="text-center " style="font-family: Tangerine; font-size: 3cm;">About Us</h2>
+              
+                <p id="aboutp" class="align-items-center"> Welcome to Yummy Hunt, your ultimate gastronomic companion in the digital age! Whether you're a seasoned chef or a kitchen newbie, Yummy Hunt is here to revolutionize the way you discover, create, and savor delightful dishes.
+      
+                  With Yummy Hunt, your next epicurean adventure is just a tap away. Say farewell to endless recipe searches and bland meals – our intuitive app brings together a treasure trove of mouthwatering recipes from around the globe, curated to suit every taste, dietary preference, and occasion.
+                  
+                  Embark on a journey of flavor exploration with our user-friendly interface, designed to make recipe browsing a breeze. From quick weekday dinners to extravagant weekend feasts, Yummy Hunt empowers you to unleash your inner chef and whip up epicurean delights that will tantalize your taste buds and impress even the toughest food critics.
+                  
+                  But Yummy Hunt is more than just a recipe repository hfit's your personal kitchen assistant, offering handy features like meal planning, grocery list generation, and cooking tips to streamline your culinary experience. Say goodbye to last-minute grocery runs and hello to stress-free cooking, thanks to Yummy Hunt's innovative tools and resources.
+                  
+                  So why wait? Join the Yummy Hunt community today and embark on a delicious journey filled with endless epicurean possibilities. Whether you're craving comfort food classics, exotic international flavors, or healthy plant-based options, Yummy Hunt has everything you need to satisfy your appetite and elevate your cooking game. Happy cooking!</p>
+             
+                </div>
+  </section>
+  <!-- Blog Section -->
+<section id="blog" class="p-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Yummy Hunt Blog</h2>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="img/blog1.jpg" class="card-img-top" alt="5 Seasonal Ingredients to Liven Up Your Meals">
+          <div class="card-body">
+            <h5 class="card-title">5 Seasonal Ingredients to Liven Up Your Meals</h5>
+            <p class="card-text">Explore the vibrant flavors of the season with these fresh and nutritious ingredients that will add a burst of flavor to your dishes.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="img/blog2.jpg" class="card-img-top" alt="Meal Prepping Made Easy: Tips and Tricks">
+          <div class="card-body">
+            <h5 class="card-title">Meal Prepping Made Easy: Tips and Tricks</h5>
+            <p class="card-text">Discover the art of meal prepping and learn how to plan, prepare, and store delicious meals in advance for a stress-free cooking experience.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="img/blog3.jpg" class="card-img-top" alt="Exploring Global Cuisine: A Taste of the World">
+          <div class="card-body">
+            <h5 class="card-title">Exploring Global Cuisine: A Taste of the World</h5>
+            <p class="card-text">Embark on a culinary adventure and discover the rich and diverse flavors from different cultures across the globe with our curated collection of international recipes.</p>
+            <a href="#" class="btn btn-primary">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
    
      
-  <script src="js/script.js"></script>  </body>
+  <script src="js/script.js"></script>
+  </body>
 </html>

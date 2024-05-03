@@ -20,7 +20,7 @@
           "Add a splash of pasta water at a time, tossing constantly, until a creamy sauce forms. Season with salt and pepper to taste.",
           "Garnish with fresh parsley and serve immediately."
         ],
-        "image": "img/spaghetti-aglio.jpeg" 
+        "image": "img/spaghetti-aligo.jpg" 
       },
       {
         "id": 2,
@@ -130,7 +130,7 @@
           "Warm tortillas according to package directions.",
           "Serve chicken fajita mixture with tortillas, shredded cheese, guacamole, and sour cream (optional)."
         ],
-        "image": "img/Chicken Fajitas2.jpeg"
+        "image": "img/fajitas.jpg"
       }, {
         "id": 7,
         "name": "Cheesy Chicken Enchiladas",
