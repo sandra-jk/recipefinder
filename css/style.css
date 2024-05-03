@@ -1,14 +1,14 @@
 body{
-    background-color: #86469C;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: ;
+    
 }
 .hero {
-    background-color: #86469C;
+    background-color: ;
     padding: 50px 0;
     
   }
   .navbar {
-    background-color: #86469C;
+    background-color: ;
     display: flex;
     justify-content: space-between;
     padding: 30px 20px;    
@@ -70,5 +70,31 @@ body{
     max-width: 50%;
   }
   #about{
-    background-color: #BC7FCD;
+    background-color: ;
+  }
+
+  .like-button  #review{
+    
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+  }
+   #review{
+    
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+   }
+
+   @font-face {
+    font-family: "Roboto"; /* Name to reference the font */
+    src: url("https://fonts.googleapis.com") format("woff2"), /* Font file path and format */
+         url("https://fonts.googleapis.com") format("woff"); /* Optional fallback for older browsers */
+    font-weight: normal; /* Optional: Font weight (e.g., bold) */
+    font-style: normal; /* Optional: Font style (e.g., italic) */
+    /* Other optional properties like font-display */
+  }
+
+  #buttons {
+    margin: 20px 10px 30px 40px;
   }

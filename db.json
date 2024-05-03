@@ -42,7 +42,7 @@
           "Add broccoli and red bell pepper to the pan and stir-fry for 3-4 minutes, or until tender-crisp.",
           "Serve chicken and vegetables over cooked rice."
         ],
-        "image": "img/chicken-stir-fry.jpeg" 
+        "image": "img/stirfry.jpg" 
       },
       {
         "id": 3,
@@ -65,7 +65,7 @@
           "Puree soup with an immersion blender or in batches in a regular blender. Season with salt and pepper to taste.",
           "For grilled cheese, prepare sandwiches with bread and cheese slices. Butter outside of bread slices. Cook in a pan over medium heat until golden brown and cheese is melted."
         ],
-        "image": "img/Tomato-soup-with-grilled-cheese-4.jpg"  
+        "image": "img/tomatogrilledcheese.jpg"  
       },
       {
         "id": 4,
@@ -85,7 +85,7 @@
           "Spread tuna salad on slices of bread. Add lettuce and tomato slices (optional).",
           "Enjoy your tuna salad sandwich!"
         ],
-        "image": "path/to/tuna-salad-sandwich.jpg"
+        "image": "img/tuna.jpg"
       },
       {
         "id": 5,
@@ -106,7 +106,7 @@
           "Remove from heat and stir in cheddar cheese until melted. Season with salt and pepper to taste.",
           "Combine cooked macaroni with cheese sauce and toss to coat. Serve immediately."
         ],
-        "image": "path/to/mac-and-cheese.jpg"
+        "image": "img/maccheese.jpg"
       },
       {
         "id": 6,
@@ -171,7 +171,7 @@
           "Layer Greek yogurt, granola, and fresh fruit in a parfait glass or bowl. Repeat layers as desired.",
           "Drizzle with honey (optional) and sprinkle with chopped nuts (optional) for extra flavor and crunch."
         ],
-        "image": "path/to/greek-yogurt-parfait.jpg"
+        "image": "img/parfait.jpg"
       },
       {
         "id": 9,

@@ -35,3 +35,28 @@ document.addEventListener('DOMContentLoaded', function () {
       })
       .catch(error => console.error('Error fetching recipe data:', error));
 });
+
+function likeRecipe() {
+    // Get the recipe name from the page
+    var recipeName = document.getElementById("recipe-name").innerText;
+    
+    // Check if local storage is available
+    if (typeof(Storage) !== "undefined") {
+      // Retrieve existing liked recipes from local storage or initialize an empty array
+      var likedRecipes = JSON.parse(localStorage.getItem("likedRecipes")) || [];
+      
+      // Check if the recipe is already liked
+      if (likedRecipes.includes(recipeName)) {
+        alert("You've already liked this recipe!");
+      } else {
+        // Add the recipe to the liked recipes array
+        likedRecipes.push(recipeName);
+        // Store the updated liked recipes array back to local storage
+        localStorage.setItem("likedRecipes", JSON.stringify(likedRecipes));
+        alert("Recipe liked!");
+      }
+    } else {
+      alert("Sorry, your browser does not support local storage. Unable to like recipe.");
+    }
+  }
+  
